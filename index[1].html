@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jaswanth Pidikiti — Front-End Web Design</title>
+<meta name="description" content="Front-end websites built to launch — landing pages, business sites, and portfolios, designed and coded by Jaswanth Pidikiti.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <a class="logo" href="#top">Jaswanth Pidikiti</a>
+  <nav class="site-nav">
+    <a href="#services">Services</a>
+    <a href="#process">Process</a>
+    <a href="#pricing">Pricing</a>
+    <a href="#contact">Contact</a>
+  </nav>
+  <a href="tel:+13145658437" class="btn btn-small">Call</a>
+</header>
+
+<main id="top">
+
+  <section class="hero">
+    <div class="blob blob--a" aria-hidden="true"></div>
+    <div class="blob blob--b" aria-hidden="true"></div>
+
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyebrow">Front-end web design</p>
+        <h1>Websites that load fast,<br>look sharp, and get you found.</h1>
+        <p class="hero-sub">I design and build front-end websites — landing pages, business sites, portfolios — from a blank screen to something you can launch this week. No page-builder bloat, no templates that look like everyone else's.</p>
+        <div class="hero-actions">
+          <a href="tel:+13145658437" class="btn btn-primary">
+            <span class="btn-label">Call</span>
+            <span class="btn-detail">(314) 565-8437</span>
+          </a>
+          <a href="mailto:Jaswanthchowdharypidikiti@gmail.com?subject=Website%20project" class="btn btn-ghost">
+            <span class="btn-label">Email</span>
+            <span class="btn-detail">Jaswanthchowdharypidikiti@gmail.com</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-hidden="true">
+        <div class="editor">
+          <div class="editor-bar">
+            <span class="dot dot--r"></span><span class="dot dot--y"></span><span class="dot dot--g"></span>
+          </div>
+          <pre class="editor-code"><code id="typed-code"></code><span class="cursor"></span></pre>
+        </div>
+        <div class="preview" id="preview">
+          <div class="preview-bar">
+            <span class="preview-url">yoursite.com</span>
+          </div>
+          <div class="preview-body">
+            <div class="preview-line preview-line--title"></div>
+            <div class="preview-line preview-line--text"></div>
+            <div class="preview-line preview-line--text short"></div>
+            <div class="preview-btn"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <svg class="wave" viewBox="0 0 1440 100" preserveAspectRatio="none" aria-hidden="true">
+      <path class="wave-path" d="M0,50 C240,100 480,0 720,50 C960,100 1200,0 1440,50 L1440,100 L0,100 Z"></path>
+    </svg>
+  </section>
+
+  <section class="services" id="services">
+    <p class="eyebrow">What I build</p>
+    <h2>Four kinds of sites, built right.</h2>
+
+    <div class="service-grid">
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40"><rect x="4" y="8" width="32" height="24" rx="2"></rect><line x1="4" y1="16" x2="36" y2="16"></line></svg>
+        </div>
+        <h3>Landing pages</h3>
+        <p>One page, one job — turn visitors into customers, subscribers, or bookings.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40"><rect x="6" y="6" width="12" height="12" rx="1"></rect><rect x="22" y="6" width="12" height="12" rx="1"></rect><rect x="6" y="22" width="12" height="12" rx="1"></rect><rect x="22" y="22" width="12" height="12" rx="1"></rect></svg>
+        </div>
+        <h3>Business websites</h3>
+        <p>A full site for your business — home, about, services, and contact, all in one place.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40"><circle cx="20" cy="14" r="8"></circle><path d="M6 34 C6 24 34 24 34 34"></path></svg>
+        </div>
+        <h3>Portfolios</h3>
+        <p>Show your work the way it deserves to be seen — fast, clean, and easy to browse.</p>
+      </article>
+      <article class="service-card">
+        <div class="service-icon" aria-hidden="true">
+          <svg viewBox="0 0 40 40"><path d="M6 20 L34 20 M22 8 L34 20 L22 32"></path></svg>
+        </div>
+        <h3>Redesigns</h3>
+        <p>Already have a site? I'll make it faster, cleaner, and better looking — same content, new shape.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="process" id="process">
+    <p class="eyebrow">How it works</p>
+    <h2>From first call to live site.</h2>
+
+    <ol class="process-list">
+      <li class="process-step">
+        <span class="process-num">01</span>
+        <div>
+          <h3>Chat</h3>
+          <p>A quick call or text about what you need, who it's for, and why.</p>
+        </div>
+      </li>
+      <li class="process-step">
+        <span class="process-num">02</span>
+        <div>
+          <h3>Design</h3>
+          <p>A look and feel built around your brand — not a template with your logo dropped in.</p>
+        </div>
+      </li>
+      <li class="process-step">
+        <span class="process-num">03</span>
+        <div>
+          <h3>Build</h3>
+          <p>Clean, hand-written code — no bloated page builders slowing your site down.</p>
+        </div>
+      </li>
+      <li class="process-step">
+        <span class="process-num">04</span>
+        <div>
+          <h3>Launch</h3>
+          <p>Live on the web, plus a short walkthrough of how to update it yourself.</p>
+        </div>
+      </li>
+    </ol>
+  </section>
+
+  <section class="pricing" id="pricing">
+    <p class="eyebrow">Pricing</p>
+    <h2>Pick a starting point.</h2>
+    <p class="section-sub">Every project gets scoped to what you actually need — these are starting points, not fixed prices.</p>
+
+    <div class="pricing-grid">
+      <article class="price-card">
+        <h3>Starter</h3>
+        <p class="price">From $350</p>
+        <p class="price-desc">A single, focused landing page — built to convert.</p>
+        <ul>
+          <li>One page</li>
+          <li>Mobile-friendly</li>
+          <li>Contact links built in</li>
+        </ul>
+        <a href="mailto:Jaswanthchowdharypidikiti@gmail.com?subject=Starter%20site%20inquiry" class="btn btn-ghost btn-full">Ask about this</a>
+      </article>
+
+      <article class="price-card price-card--featured">
+        <p class="price-badge">Most popular</p>
+        <h3>Business</h3>
+        <p class="price">From $750</p>
+        <p class="price-desc">A multi-page site that covers everything a business needs.</p>
+        <ul>
+          <li>Up to 5 pages</li>
+          <li>Mobile-friendly</li>
+          <li>Contact section + map</li>
+          <li>Basic SEO setup</li>
+        </ul>
+        <a href="mailto:Jaswanthchowdharypidikiti@gmail.com?subject=Business%20site%20inquiry" class="btn btn-primary btn-full">Ask about this</a>
+      </article>
+
+      <article class="price-card">
+        <h3>Custom</h3>
+        <p class="price">Let's talk</p>
+        <p class="price-desc">Bigger builds, redesigns, or anything with special requirements.</p>
+        <ul>
+          <li>Scoped to your project</li>
+          <li>Flexible timeline</li>
+          <li>Ongoing updates available</li>
+        </ul>
+        <a href="mailto:Jaswanthchowdharypidikiti@gmail.com?subject=Custom%20project%20inquiry" class="btn btn-ghost btn-full">Ask about this</a>
+      </article>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="blob blob--c" aria-hidden="true"></div>
+    <p class="eyebrow">Get in touch</p>
+    <h2>Let's build something.</h2>
+    <p class="contact-sub">Call, text, or email — whichever's easiest for you.</p>
+
+    <div class="contact-links">
+      <a href="tel:+13145658437" class="contact-link">
+        <span class="contact-label">Phone</span>
+        <span class="contact-value">(314) 565-8437</span>
+      </a>
+      <a href="mailto:Jaswanthchowdharypidikiti@gmail.com" class="contact-link">
+        <span class="contact-label">Email</span>
+        <span class="contact-value">Jaswanthchowdharypidikiti@gmail.com</span>
+      </a>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Jaswanth Pidikiti — front-end web design.</p>
+  <p>&copy; 2026 · (314) 565-8437 · Jaswanthchowdharypidikiti@gmail.com</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
